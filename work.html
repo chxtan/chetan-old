@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Chetan's Portfolio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equip="X-UA-compatible" content="ie=edge">
+
+	<!---------------------------------bootstrapstylesheet----------------------------------->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+
+
+	<!---------------------------------my stylesheet----------------------------------->
+
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="icon" href="favicon.png">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,700&family=Montserrat:wght@500&family=Sacramento&display=swap"
+		rel="stylesheet">
+
+	<!--------------------------------font awesome----------------------------------->
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+
+<body>
+
+
+
+	<!----------------------------nav bar---------------------------------------------------------------->
+	
+	<!------------------------------------------------------- Nav Bar ----------------------------------------------------------->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="index.html"><img class="logo" src="images/myavatar.png" alt="logo"></a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="blogpage.html">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="work.html">Work<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link"
+						href="https://drive.google.com/file/d/12GnHwD5J2H73CWrt9g1I_0JUv5vGSnRc/view?usp=sharing">Resume</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<button class="mode" onclick="func1()">
+		<h5>Dark Mode</h5>
+	</button>
+
+	<!----------------------row and column work------------------------->
+	<div class="container">
+
+		<div class="row">
+
+			<!-- <div class="col-md-6 col-lg-4">
+				<div class="project">
+				<img src="images/calculator.png" class="project-image" alt="shop">
+				<h2>Calculator</h2>
+				<p>A Simple and fully responsive calculator with  dark and light theme <p>
+				<a href="https://vinita2000.github.io/Calculator/" class="Project">See Demo</a>
+				</div>		
+			</div> -->
+
+
+			<div class="col-md-6 col-lg-4">
+				<div class="project">
+					<img src="images/project1.png" class="project-image" alt="shop">
+					<h2>Harry Potter world</h2>
+					<p>A place for Potterheads where they can find Harry Potter Novels for free.
+					<p>
+						<a href="https://chetanrakhra.github.io/Harry-Potter-Books/" class="Project">See Demo</a>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4">
+				<div class="project">
+					<img src="images/project2.png" class="project-image" alt="shop">
+					<h2>Snake Game</h2>
+					<p>Play Nokia's Snake game.. Feed the name and make it bigger.
+					<p>
+						<a href="https://chetanrakhra.github.io/Snake-Game/" class="Project">See Demo</a>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4">
+				<div class="project">
+					<img src="images/project7.png" class="project-image" alt="shop">
+					<h2>Profile Card</h2>
+					<p>Profile card made with HTML CSS, contains links to social profile.
+					<p>
+						<a href="https://chetanrakhra.github.io/Profile/" class="Project">See Demo</a>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4">
+				<div class="project">
+					<img src="images/project6.png" class="project-image" alt="shop">
+					<h2>Blog Site in Flask</h2>
+						<p>Made in Python's framework Flask. It will provide complete feel of blogging.
+						<p>
+							<a href="https://github.com/chetanrakhra/Newspaper-Reading" class="Project">See Code</a>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4">
+				<div class="project">
+					<img src="images/project3.png" class="project-image" alt="shop">
+					<h2>Newspaper Raeding</h2>
+					<p>Run in PyCharm or any Python IDLE and it will read (Dictate) daily updated news for you.
+					<p>
+						<a href="https://github.com/chetanrakhra/Newspaper-Reading" class="Project">See Code</a>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4">
+				<div class="project">
+					<img src="images/project4.png" class="project-image" alt="shop">
+					<h2>Library MS</h2>
+					<p>Run in PyCharm or any Python IDLE and it will provide you room for take account of books.
+					<p>
+						<a href="https://github.com/chetanrakhra/Library-Management-System" class="Project">See Code</a>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-4">
+				<div class="project">
+					<img src="images/project5.png" class="project-image" alt="shop">
+					<h2>Health MS</h2>
+					<p>Run in PyCharm or any Python IDLE and it will keep all your records of Exercise and Diet but you
+						have to just add the values.
+					<p>
+						<a href="https://github.com/chetanrakhra/Health-Management-System" class="Project">See Code</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!---------------------------------contact me section----------------------------------->
+
+
+	<div class="contact-me">
+		<h2>Get In Touch</h2>
+
+		<div class="contact-message">
+			<p>Don't forget to reach out.</p>
+			<p>Regards 💙️</p>
+		</div>
+		<a href="mailto:vinitayadavlkw225@gmail.com" class="myButton"><i class="fa fa-envelope-o"
+				aria-hidden="true"></i> Ping Me</a>
+
+	</div>
+
+
+	<div class="bottom">
+		<a class="footer-link" href="https://www.linkedin.com/in/chetan-rakhra-8126bb145/"><i
+				class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a>
+		<a class="footer-link" href="https://www.instagram.com/el_resistant/"><i class="fa fa-instagram"
+				aria-hidden="true"></i> Instagram</a>
+		<a class="footer-link" href="https://github.com/chetanrakhra"><i class="fa fa-github" aria-hidden="true"></i>
+			GitHub</a>
+		<p>© 2020 Chetan @ All rights reserved</p>
+	</div>
+
+
+
+
+
+
+
+
+	<!-------------------------------------- JS, Popper.js, and jQuery --------------------------------------------------->
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+	<script src="js/pro.js"></script>
+
+</body>
+
+</html>

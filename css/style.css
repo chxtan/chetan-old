@@ -1,0 +1,503 @@
+body
+{
+	background-color: none;
+	
+	font-family: 'Merriweather Sans', sans-serif;
+
+    	text-align: center;	
+}
+/*....................navbar....................................*/
+
+.navbar
+{
+	background-color: #B0E0E6;
+}
+
+
+.navbar-brand img
+{
+	width:40px;
+	height: 40px;
+}
+
+
+
+/*.....................intoduction part...........................*/
+.top
+{
+	background-color: #B0E0E6;
+	color: #008B8B;
+	
+	
+}
+ h1
+{
+	font-size: 5.6rem;
+	padding-top: 150px;
+	margin: auto;
+	font-family: 'Sacramento', cursive;
+	
+	
+}
+
+h2
+{
+	font-family: 'Montserrat', sans-serif;
+	color:#008B8B;
+	
+}
+h3
+{
+	font-family: 'Montserrat', sans-serif;
+	color: #008B8B;
+	
+}
+
+span
+{
+	color:#708090;
+}
+ p
+{
+	
+	line-height: 2;
+	
+}
+
+/*.........................................image......................................*/
+.mountain
+{
+	width: 40%;
+	overflow: hidden;
+	position: relative;
+	top: 5px;
+	margin-top: 100px;
+	
+}
+.top-cloud
+{
+	width:5%;
+	position: absolute;
+	right: 550px;
+	top: 190px;
+}
+.bottom-cloud
+{
+	width:5%;
+	position: absolute;
+	left: 550px;
+	top: 400px;
+	
+	
+}
+
+/*...................................intro part.......................................*/
+.intro
+{
+	width: 30%;
+	margin: auto;
+	
+	
+}
+
+/*......................................line.........................................*/
+hr
+{
+	border: dotted;
+	border-bottom: none;
+	width: 4%;
+	margin: 150px auto;
+}
+
+
+
+/*.................................middle-container.....................................*/
+
+.middle
+{
+	margin-top: 150px;	
+	
+}
+.middle .profile img
+{
+	border-radius:50%; 
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	
+}
+
+
+.skills
+{
+	margin-top: 150px;
+}
+.skills img
+{
+	height: 250px;
+	width: 250px;
+	
+	
+}
+
+/*...................................skills details part.......................................*/
+.skill-details
+{
+	
+	margin: auto;
+	
+	
+}
+
+
+
+/*.........................laptop girl image......................................,....*/
+
+
+
+
+
+/*.....................................skills...........................................*/
+.skill-row
+{
+	margin: auto;
+	width: 50%;
+	text-align: left;
+	margin-top: 100px;
+}
+.first-skill
+{
+	width: 100px;
+	border-radius:50%;
+	float: left;
+	margin-right: 20px;
+	
+}
+.second-skill
+{
+	
+	margin-left: 20px;
+	width: 100px;;
+	border-radius:50%;
+	float: right;
+	
+	
+}
+
+/*.........................................contact me.................................*/
+
+.contact-me
+{
+	margin-top: 200px;
+}
+
+
+.contact-message
+{
+	width: 30%;
+	
+	margin: 40px auto 60px;
+}
+/*................................................contact button..................................*/
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #78e4e6 5%, #158080 100%);
+	background-color:#78e4e6;
+	border-radius:10px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 34px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #158080 5%, #78e4e6 100%);
+	background-color:#158080;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/*......................................bottom-container.................................*/
+.bottom
+{
+	margin-top: 100px;
+	background-color: #B0E0E6;
+	padding: 50px 0 20px;
+	
+}
+
+a
+{
+	color:#008B8B;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	text-decoration: none; 
+}
+a:hover
+{
+	color: #EAF6F6;
+}
+.bottom p
+{
+	color:#008B8B;
+}
+
+
+
+
+/*.............................blog page.........................................*/
+/*.............................blog page.........................................*/
+.aboutme
+{
+
+	padding-top: 200px;
+	background-color: #B0E0E6;
+	border: 1px solid #008B8B;
+	padding-bottom: 200px;
+	margin-left: 30px;
+	margin-right: 30px;
+	position: relative;
+	background-size: contain;
+
+}
+
+.aboutme h2
+{
+	width: 30%;
+	margin-left: 30%;
+}
+.aboutme p
+{
+	padding-top: 30px;
+	line-height: 2;
+	width: 30%;
+	margin-left: 30%;
+	
+	
+}
+
+/*.....................................big girl image align........................*/
+.biggirl
+{
+	
+	width: 350px;
+	overflow: hidden;
+	position: relative;
+	float: right;
+	top: 5px;
+	
+	
+	
+}
+
+/*........................................career details.............................*/
+.career-row
+{
+	margin-top: 300px;
+}
+.career h2
+{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.career
+{
+	margin-top: 300px;
+}
+.career-row
+{
+	margin: auto;
+	width: 50%;
+	text-align: left;
+	margin-top: 150px;
+}
+
+.career-details
+{
+	
+	margin: auto;
+	
+	
+}
+
+.first-hat
+{
+	width: 100px;
+	border-radius:50%;
+	float: left;
+	margin-left: 20px;
+	
+}
+.second-hat
+{
+	
+	margin-left: 20px;
+	width: 100px;;
+	border-radius:50%;
+	float: left;
+	
+	
+}
+
+.third-hat
+{
+	width: 100px;
+	border-radius:50%;
+	float: left;
+	margin-left: 20px;
+	
+}
+
+/*........................................hobby part......................................*/
+
+
+.hobby
+{
+	margin-top: 150px;
+}
+.hobby img
+{
+	height: 250px;
+	width: 250px;
+	
+	
+}
+
+/*...................................skills details part.......................................*/
+.hobby-details
+{
+	
+	margin: auto;
+	width:45%;
+	
+	
+}
+
+
+
+.hobby-row1
+{
+	margin: auto;
+	width: 50%;
+	text-align: left;
+	margin-top: 100px;
+	
+}
+
+.hobby-row2
+{
+	margin: auto;
+	width: 50%;
+	text-align: left;
+	margin-top: 100px;
+	
+}
+.hobby-row2 h3
+{
+	text-align: center;
+}
+.hobby-row1 h3
+{
+	text-align: center;
+}
+
+.first-hobby
+{
+	width: 150px;
+	border-radius:50%;
+	float: left;
+	margin-right: 20px;
+	
+}
+.second-hobby
+{
+	
+	margin-left: 20px;
+	width: 150px;;
+	border-radius:50%;
+	float: right;
+	
+	
+}	
+	
+	
+
+
+
+
+/*.....................................queries..............................................*/
+.queries
+{
+	margin-top: 250px;
+}
+.queries-message
+{
+	padding-bottom: 2px;
+}
+
+
+
+
+/*......................................work page................................................*/
+.project
+{
+	
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+.project-image
+{
+	width: 50%;
+}
+
+.work h2
+{
+	color: white;
+}
+
+.work p
+{
+	margin-top: 20px;
+	color: #FFE4E1;
+}
+
+/*.............................................button to see the project..............................*/
+.Project {
+	box-shadow: 3px 4px 0px 0px #1b7fc2;
+	background:linear-gradient(to bottom, #37a855 5%, #64d139 100%);
+	background-color:#37a855;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.Project:hover {
+	background:linear-gradient(to bottom, #64d139 5%, #37a855 100%);
+	background-color:#64d139;
+}
+.Project:active {
+	position:relative;
+	top:1px;
+}
+.dark-mode{
+  background-color: black;
+  color: white;
+}
