@@ -35,6 +35,7 @@ Site Link: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows
 
 
 This created Azure Service Principle; we will use it to setup the authentication between Terraform and Azure.
+
 8.	Now, make a directory in your local system and create a file named “main.tf” and write the script to create the resources.
 
 9.	Where, we have written code to create resources like Resource Group, App Service Plan, and App Service.
