@@ -30,7 +30,8 @@ Site Link: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows
 
 7.	Now create the Azure SP.
 
- ![Picture5](https://github.com/chxtan/chetan-old/assets/58957605/39dc1c2d-c8c7-4fa0-83e2-1c50ca427547)
+![5 1](https://github.com/chxtan/chetan-old/assets/58957605/6e406073-bb7d-4f76-bca4-cac85fd460a6)
+
 
 
 This created Azure Service Principle; we will use it to setup the authenticate between Terraform and Azure.
