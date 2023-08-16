@@ -34,15 +34,17 @@ Site Link: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows
 
 
 
-This created Azure Service Principle; we will use it to setup the authenticate between Terraform and Azure.
+This created Azure Service Principle; we will use it to setup the authentication between Terraform and Azure.
 8.	Now, make a directory in your local system and create a file named “main.tf” and write the script to create the resources.
-9.	Where, we have written code to create resources like, Resource Group, App Service Plan, App Service.
-10.	Also code to upload the .tfstate file to the Azure Storage Accuont.
+
+9.	Where, we have written code to create resources like Resource Group, App Service Plan, and App Service.
+
+10.	Also code to upload the .tfstate file to the Azure Storage Account.
 
  ![Picture6](https://github.com/chxtan/chetan-old/assets/58957605/30900ac7-6bbc-4a59-83e2-ac345f46f0d4)
 
 
-11.	Now, after creating the terraform file, we will initiate it with the help of command
+11.	Now, after creating the terraform file, we will initiate it with the help of the command
 “terraform init”.
 
  ![Picture7](https://github.com/chxtan/chetan-old/assets/58957605/e1d387ad-b678-4922-913e-850a263de76f)
