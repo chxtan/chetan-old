@@ -42,7 +42,7 @@ This created Azure Service Principle; we will use it to setup the authentication
 
 10.	Also code to upload the .tfstate file to the Azure Storage Account.
 
- ![Picture6](https://github.com/chxtan/chetan-old/assets/58957605/30900ac7-6bbc-4a59-83e2-ac345f46f0d4)
+ ![6 1](https://github.com/chxtan/chetan-old/assets/58957605/be64222a-814f-4737-9728-6ad6473b507f)
 
 
 11.	Now, after creating the terraform file, we will initiate it with the help of the command
